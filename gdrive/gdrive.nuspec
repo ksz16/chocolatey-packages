@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>gdrive</id>
+    <version>2.1.0</version>
+    <title>gdrive</title>
+    <authors>Petter Rasmussen</authors>
+    <owners>Petter Rasmussen</owners>
+    <licenseUrl>https://github.com/prasmussen/gdrive/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/prasmussen/gdrive</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Google Drive CLI Client.
+	
+gdrive is a command line utility for interacting with Google Drive.</description>
+    <summary>Google Drive CLI Client.</summary>
+    <copyright>Petter Rasmussen</copyright>
+    <tags>googledrive google cloud cli</tags>
+    <projectSourceUrl>https://github.com/prasmussen/gdrive/releases/tag/2.1.0</projectSourceUrl>
+    <packageSourceUrl>https://github.com/ksz16/chocolatey-packages/tree/master/gdrive</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/prasmussen/gdrive/issues</bugTrackerUrl>
+  </metadata>
+</package>
