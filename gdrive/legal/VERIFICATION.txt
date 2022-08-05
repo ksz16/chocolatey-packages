@@ -4,14 +4,15 @@ in verifying that this package's contents are trustworthy.
  
 Package can be verified like this:
 
-1. Go to https://github.com/prasmussen/gdrive to download the exe files:
+1. Go to https://github.com/prasmussen/gdrive to download the tar.gz files:
 
-   x32: gdrive-windows-386.exe
-   x64: gdrive-windows-x64.exe
+2. Extract 'gdrive.exe' from the package
 
-2. You can use one of the following methods to obtain the SHA1 checksum:
-   - Use powershell function 'Get-FileHash'
-   - Use Chocolatey utility 'checksum.exe'
+3. You can use one of the following methods to obtain a hash
+   - Use Chocolatey utility 'checksum.exe gdrive.exe'
+   - Use powershell function 'Get-FileHash gdrive.exe SHA1'
 
-   checksum32: 1429200631b598543eddc3df3487117cad95adbb
-   checksum64: 17f692a027a049385af2576503cd376593cc87b7
+   checksum32: 3C1E607DE1AB44B97ACD19578F0D9289
+   SHA1-32: 7955727E725D319FC097CAB56F571A792692A344
+   checksum64: 8B4F85986915332032D17C04368C2820
+   SHA1-64: 8F27C77B01EEB2B38E229296468AAF68C9D86826
